@@ -30,6 +30,18 @@ public class BossBabyRevenge {
 
     public String checkRevenge(String S) {
 
+        // Validate input length
+        if (S == null || S.isEmpty() || S.length() > 1_000_000) {
+            throw new IllegalArgumentException("Input string length must be between 1 and 1,000,000 characters.");
+        }
+
+        // Validate input characters
+        for (char c : S.toCharArray()) {
+            if (c != 'S' && c != 'R') {
+                throw new IllegalArgumentException("Input string must contain only 'S' and 'R' characters.");
+            }
+        }
+
         // Check if the string starts with 'R' to ensures Boss Baby doesn't shoot first
         if (S.charAt(0) == 'R') {
             return "Bad boy";

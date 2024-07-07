@@ -15,8 +15,9 @@ A string (S, 1 <= len(S) <= 1,000,000) containing characters 'S' and 'R', where:
 
 ## Solution Approach
 
-1. Check if the first character is 'R'. If so, return "Bad boy" immediately.
-2. Iterate through the string, counting 'S' and 'R' occurrences.
-3. Compare the counts:
+1. Validate the string, which must contain only the characters 'S' and 'R', and its length must be less than 1,000,000 characters.
+2. Check if the first character is 'R'. If so, return "Bad boy" immediately.
+3. Iterate through the string, counting 'S' and 'R' occurrences.
+4. Compare the counts:
     - If revenge count >= shot count, return "Good boy"
     - Otherwise, return "Bad boy"
