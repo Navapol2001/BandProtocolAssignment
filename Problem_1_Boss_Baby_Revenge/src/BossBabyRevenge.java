@@ -30,7 +30,7 @@ public class BossBabyRevenge {
 
     public String checkRevenge(String S) {
 
-        // This ensures Boss Baby doesn't shoot first
+        // Check if the string starts with 'R' to ensures Boss Baby doesn't shoot first
         if (S.charAt(0) == 'R') {
             return "Bad boy";
         }
