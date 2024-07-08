@@ -13,7 +13,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -30,3 +30,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.DS_Store
+
+mvnw
+mvnw.cmd

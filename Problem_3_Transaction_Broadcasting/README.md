@@ -104,9 +104,9 @@ This project implements a transaction client for broadcasting and monitoring cry
 ## API Endpoints
 
 - POST `/broadcast`: Broadcast a new transaction
-![Image description](/images/POST.png)
+  <image src="/images/POST.png" alt="Image description">
 - GET `/check/{txHash}`: Check the status of a transaction
-![Image description](/images/GET.png)
+  <image src="/images/GET.png" alt="Image description">
 
 ## Testing
 
